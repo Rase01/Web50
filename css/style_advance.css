@@ -1,0 +1,46 @@
+*{
+    font-family: Arial,sans-serif;
+}
+
+/*HEADER STYLES*/
+.container-header{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    margin: 20px;
+}
+
+.images{
+    width: 65px;
+}
+
+.image-container{
+    align-self: center;
+}
+
+.links-container{
+    align-self: center;
+    text-align: right;
+}
+
+.links{
+    display: inline;
+    text-decoration: none;
+    color: #343a40;
+    font-size: 13px;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+/*MAIN*/
+h1{
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 20px;
+    color: red;
+}
+
+
