@@ -24,48 +24,51 @@
     </header>
     <main>
         <h1>Advance Search</h1>
-        <form action="https://www.google.com/advanced_search/search" method="get">
-            <div class="form-subtitle">
-                <label for="">Find pages with...</label>
-            </div>
-            <div class="form-boxes">
-                <div class="form-boxes_">
-                    <div>
-                        <label for="">All these words:</label>
-                    </div>                
-                    <div>
-                        <input type="text">
+        <div class="line"></div>
+        <div class="form-container">
+            <form action="https://google.com/search" method="get" name="f">
+                <div class="form-subtitle">
+                    <label for="">Find pages with...</label>
+                </div>
+                <div class="form-main-box">
+                    <div class="form-boxes">
+                        <div class="form-boxes_label">
+                            <label for="">All these words:</label>
+                        </div>                
+                        <div class="form-boxes_input">
+                            <input type="text" class="text-inputs" name="as_q">
+                        </div>
+                    </div>
+                    <div class="form-boxes">
+                        <div class="form-boxes_label">
+                            <label for="">This exact word or phrase:</label>
+                        </div>                
+                        <div class="form-boxes_input">
+                            <input type="text" class="text-inputs" name="as_epq">
+                        </div>
+                    </div>
+                    <div class="form-boxes">
+                        <div class="form-boxes_label">
+                            <label for="">Any of these words:</label>
+                        </div>                
+                        <div class="form-boxes_input">
+                            <input type="text" class="text-inputs" name="as_oq">
+                        </div>
+                    </div>
+                    <div class="form-boxes">
+                        <div class="form-boxes_label">
+                            <label for="">None of these words:</label>
+                        </div>                
+                        <div class="form-boxes_input">
+                            <input type="text" class="text-inputs" name="as_eq">
+                        </div>
+                    </div>
+                    <div class="form-box_submit">
+                        <input type="submit" value="Advance Search" class="input-submit">
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <label for="">This exact word or phrase:</label>
-                    </div>                
-                    <div>
-                        <input type="text">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <label for="">Any of these words:</label>
-                    </div>                
-                    <div>
-                        <input type="text">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <label for="">None of these words:</label>
-                    </div>                
-                    <div>
-                        <input type="text">
-                    </div>
-                </div>
-            </div>
-            <div>
-                <input type="submit" value="Advance Search">
-            </div>
-        </form>
+            </form>
+        </div>
     </main>
 </body>
 </html>
